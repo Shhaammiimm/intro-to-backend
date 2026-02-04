@@ -1,0 +1,28 @@
+{
+  "name": "intro-to-backend",
+  "version": "1.0.0",
+  "description": "a tutorial for backend",
+  "homepage": "https://github.com/Shhaammiimm/intro-to-backend#readme",
+  "bugs": {
+    "url": "https://github.com/Shhaammiimm/intro-to-backend/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Shhaammiimm/intro-to-backend.git"
+  },
+  "license": "ISC",
+  "author": "Shamim Mahamud Shajon",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1",
+    "mongoose": "^9.1.5",
+    "nodemon": "^3.1.11"
+  }
+}
